@@ -1,0 +1,62 @@
+@import url('./app.css');
+@import url('./index.css');
+@import url('./');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+}
+
+@media screen and (max-width: 1024px) { 
+	html {
+	   	font-size: 93.75%;
+	}
+}
+
+@media screen and (max-width: 768px) { 
+	html {
+		font-size: 87.5%;
+	}
+}
+
+:root {
+	--white: #ffffff;
+	--very-light-grayish-blue: #f6f6fe;
+	--light-grayish-blue: #b3b5c6;
+	--grayish-blue: #6d708d;
+	--dark-grayish-blue: #494c5f;
+}
+
+body {
+	font-size: 1rem;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+ 	color: inherit;
+  	text-decoration: none;
+}
+
+a:hover {
+ 	cursor: pointer;
+ 	opacity: 0.9;
+}
+
+button {
+  	border: 0;
+}
+
+button:hover {
+  	cursor: pointer;
+  	opacity: 0.9;
+}
+
+ul {
+	list-style: none;
+}

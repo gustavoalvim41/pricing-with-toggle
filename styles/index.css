@@ -1,0 +1,269 @@
+body {
+	background-color: var(--very-light-grayish-blue);
+}
+
+main {
+	width: 100%;
+	z-index: 2;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.our-pricing {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.our-pricing h2 {
+	font-size: 2.125rem;
+	font-weight: 700;
+
+	margin-bottom: 2.25rem;
+
+	color: var(--grayish-blue);
+}
+
+.pricing-content {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.pricing-content span {
+	font-size: 1rem;
+	font-weight: 700;
+	color: var(--light-grayish-blue);
+}
+
+.pricing-content input {
+	cursor: pointer;
+  	appearance: none;
+    outline: none;
+    display: inline-block;
+
+	width: 3rem;
+    padding: 0.2rem;
+    border-radius: 3rem;
+    background-image: linear-gradient(to right bottom, #a3a8f0, #959aec, #868be7, #787de2, #696fdd);
+}
+
+#btn-pricing-options::-webkit-slider-thumb{
+  	-webkit-appearance: none;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    background: var(--white);
+}
+
+.pricing-content input:hover {
+	opacity: 0.6;
+}
+
+.plans {
+	width: 100%;
+	margin-top: 3.5rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-plans {
+	width: 330px;
+	padding: 1.5rem;
+	border-radius: 0.3rem;
+
+	text-align: center;
+
+	background-color: var(--white);
+}
+
+.price-card {
+	font-size: 4rem;
+	font-weight: 700;
+
+	margin-bottom: 1.5rem;
+
+	color: var(--dark-grayish-blue);
+}
+
+.price-card::before {
+	content: '$ ';
+
+	font-size: 2rem;
+	font-weight: 700;
+
+	color: var(--dark-grayish-blue);
+}
+
+.benefits {
+	font-size: 1rem;
+	font-weight: 700;
+
+	border-top: 0.1rem solid #ddd;
+	margin-bottom: 1.5rem;
+	color: var(--grayish-blue);
+}
+
+.benefits li {
+	padding: 0.8rem;
+	border-bottom: 0.1rem solid #ddd;
+}
+
+.btn-learn-more {
+	width: 100%;
+	padding: 0.7rem;
+	border-radius: 0.3rem;
+
+	font-size: 0.9rem;
+	font-weight: 700;
+
+	text-transform: uppercase;
+
+	color: var(--white);
+	border: 0.1rem solid;
+	background: linear-gradient(to right, #a3a8f0, #959aec, #868be7, #787de2, #696fdd);
+}
+
+.btn-learn-more:hover {
+	color: #696fdd;
+	background: transparent;
+	border: 0.1rem solid #696fdd;
+}
+
+.best-card {
+	width: 330px;
+	padding: 3rem 1.5rem;
+	border-radius: 0.3rem;
+
+	text-align: center;
+
+	color: var(--white);
+	background-image: linear-gradient(to right bottom, #a3a8f0, #959aec, #868be7, #787de2, #696fdd);
+}
+
+.title-best-card {
+	font-size: 1rem;
+	font-weight: 700;
+
+	margin-bottom: 1.5rem;
+
+	color: var(--white);
+}
+
+.price-best-card {
+	font-size: 4rem;
+	font-weight: 700;
+
+	margin-bottom: 1.5rem;
+
+	color: var(--white);
+}
+
+.price-best-card::before {
+	content: '$ ';
+
+	font-size: 2rem;
+	font-weight: 700;
+
+	color: var(--white);
+}
+
+.title-card {
+	font-size: 1rem;
+	font-weight: 700;
+
+	margin-bottom: 1.5rem;
+
+	color: var(--grayish-blue);
+}
+
+.benefits-best-card {
+	font-size: 1rem;
+	font-weight: 700;
+
+	border-top: 0.1rem solid var(--white);
+	margin-bottom: 1.5rem;
+	color: var(--white);
+}
+
+.benefits-best-card li {
+	padding: 0.8rem;
+	border-bottom: 0.1rem solid var(--white);
+}
+
+.btn-learn-more-best-card {
+	width: 100%;
+	padding: 0.7rem;
+	border-radius: 0.3rem;
+
+	font-size: 0.9rem;
+	font-weight: 700;
+
+	text-transform: uppercase;
+
+	color: #696fdd;
+	background: var(--white);
+	border: 0.1rem solid var(--white);
+}
+
+.btn-learn-more-best-card:hover {
+	color: var(--white);
+	background: transparent;
+	border: 0.1rem solid;
+}
+
+.bg-top {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 0;
+}
+
+.bg-bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+}
+
+@media screen and (max-width: 1024px) { 
+	.our-pricing {
+		margin-top: 2.5rem;
+	}
+
+	.plans {
+		flex-direction: column;
+		gap: 2rem;
+		margin-bottom: 2.5rem;
+	}
+
+	.card-plans {
+		padding: 3rem 1.5rem;
+		border-radius: 0.8rem;
+	}
+
+	.best-card {
+		padding: 3rem 1.5rem;
+		border-radius: 0.8rem;
+	}
+
+	.bg-top { display: none; }
+
+	.bg-bottom { display: none;	}
+}
+
+@media screen and (max-width: 414px) {
+	.card-plans {
+		width: 100%;
+	}
+
+	.best-card {
+		width: 100%;
+	}
+}
