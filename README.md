@@ -1,7 +1,7 @@
 <h1 align="center">Pricing Component</h1>
 
 <div align="center" id="top">
-  <img src="./design/desktop-preview.jpg" alt="Pricing Component"/>
+  <img src="./design/desktop-design-monthly.jpg" alt="Pricing Component"/>
 
   <a href="https://gustavoalvim41.github.io/pricing-component-with-toggle/">Demo</a>
 </div>
