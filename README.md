@@ -1,9 +1,9 @@
-<h1 align="center">Pricing Component</h1>
+<h1 align="center">Pricing with toggle</h1>
 
 <div align="center" id="top">
   <img src="./design/desktop-design-monthly.jpg" alt="Pricing Component"/>
 
-  <a href="https://gustavoalvim41.github.io/pricing-component-with-toggle/">Demo</a>
+  <a href="https://gustavoalvim41.github.io/pricing-with-toggle/">Demo</a>
 </div>
 
 ## 📁 Sobre o Projeto
@@ -34,7 +34,7 @@ Este desafio me fez pensar em como construir um controle de alternância persona
 Faça um clone do desafio:
 
   ```
-  git clone https://github.com/gustavoalvim41/pricing-component-with-toggle.git
+  git clone https://github.com/gustavoalvim41/pricing-with-toggle.git
   ```
 
 
